@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/naresh IT logo.png">
+    <link rel="stylesheet" href="./bootsrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
+        integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo" crossorigin="anonymous">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="owl.carousel.css">
+    <title>Best Online Trainig Institute - Best Software Training Institute </title>
+    <style type="text/css">
+        @media screen and (max-width:500px) {
+
+            /* for services small screen */
+            .services .type {
+                margin-bottom: 10px;
+                text-align: center;
+                font-size: 15px;
+                padding: 10px;
+            }
+
+            /* for popular buttons */
+            .popular-btn button {
+                display: block;
+                margin-bottom: 20px;
+            }
+
+            .popular-btn button {
+                width: 100%;
+            }
+
+            /* for Popular Sections */
+            .popular-section {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .card-section {
+                width: 100%;
+            }
+
+            .enroll-section {
+                width: 100%;
+            }
+
+            /* footer */
+            #locations {
+                font-size: 0.7rem;
+                text-align: center;
+            }
+
+            #copyright {
+                font-size: 0.7rem;
+            }
+
+            #last-hading {
+                text-align: center;
+            }
+
+            /* Attribution */
+            .attribution {
+                font-size: 0.6rem;
+            }
+
+            .attribution a {
+                font-size: 0.7rem;
+            }
+
+
+
+        }
+
+        @media screen and (min-width:500px) {
+            .services .type {
+                width: 25%;
+            }
+        }
+
+        /* for card zooming effect */
+        .course {
+            overflow: hidden;
+        }
+
+        .course img {
+            transition: 2s;
+        }
+
+        .course img:hover {
+            transform: scale(1.2);
+            transition: 2s;
+        }
+
+
+        /* for font size of small cards */
+        .f-size {
+            font-size: 14px;
+        }
+
+
+        /* for animated text  */
+        @media screen and (max-width:950px) {
+            .animated-text h1 {
+                margin-left: -18rem;
+                margin-right: -18rem;
+            }
+        }
+
+        .animated-text h1 {
+            color: black;
+            font-size: 3rem;
+            line-height: 1.5;
+            text-transform: capitalize;
+            white-space: nowrap;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .message {
+            background-color: blue;
+            color: white;
+            display: block;
+            font-weight: 600;
+            overflow: hidden;
+            position: absolute;
+            padding: 0.2rem;
+            top: 0;
+            left: 220px;
+            animation: openclose 5s ease-in-out infinite;
+        }
+
+        .word1,
+        .word2,
+        .word3 {
+            font-family: tahoma;
+        }
+
+        @keyframes openclose {
+            0% {
+                top: 0;
+                width: 0;
+            }
+
+            5% {
+                width: 0;
+            }
+
+            15% {
+                width: 280px;
+            }
+
+            30% {
+                top: 0rem;
+                width: 280px;
+            }
+
+            33% {
+                top: 0rem;
+                width: 0;
+            }
+
+            35% {
+                top: 0.2rem;
+                width: 0;
+            }
+
+            38% {
+                top: -4.5rem;
+
+            }
+
+            48% {
+                top: -4.5rem;
+                width: 260px;
+            }
+
+            62% {
+                top: -4.5rem;
+                width: 260px;
+            }
+
+            66% {
+                top: -4.5rem;
+                width: 0;
+                text-indent: 0;
+            }
+
+            71% {
+                top: -9rem;
+                width: 0;
+                text-indent: 5px;
+            }
+
+            86% {
+                top: -9rem;
+                width: 380px;
+            }
+
+            95% {
+                top: -9rem;
+                width: 380px;
+            }
+
+            98% {
+                top: -9rem;
+                width: 0;
+                text-indent: 5px;
+            }
+
+            100% {
+                top: 0;
+                width: 0;
+                text-indent: 0;
+            }
+        }
+
+        /* for training features */
+        .feature {
+            margin: 20px;
+        }
+
+        /* for links */
+        .anchor {
+            color: white;
+            text-decoration: none;
+        }
+
+        .anchor:hover {
+            text-decoration: underline;
+            color: white;
+        }
+    </style>
+</head>
+
+<body class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+            <div class="navbar-brand" href="#">
+                <img src="../task/images/nareshit-logo.png" alt="naresh-it logo" class="d-inline-block">
+            </div>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="navbar-nav ">
+                    <li class="nav-item dropdown me-2">
+                        <a class="nav-link text-primary dropdown-toggle" href="#" data-bs-target="software"
+                            data-bs-toggle="dropdown">
+                            All Courses
+                        </a>
+                        <ul class="dropdown-menu" id="software">
+                            <li><a class="dropdown-item" href="#">Cloud Tecnologies</a></li>
+                            <li><a class="dropdown-item" href="#">Hadoop & Data science</a></li>
+                            <li><a class="dropdown-item" href="#">Automation</a></li>
+                            <li><a class="dropdown-item" href="#">Database Technologies</a></li>
+                            <li><a class="dropdown-item" href="#">Database Technologies</a></li>
+                            <li><a class="dropdown-item" href="#">WEB Technologies</a></li>
+                            <li><a class="dropdown-item" href="#">Networking</a></li>
+                            <li><a class="dropdown-item" href="#">JAVA Developer course</a></li>
+                            <li><a class="dropdown-item" href="#">Soft Skills Training</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown me-2">
+                        <a class="nav-link text-primary dropdown-toggle" href="#" data-bs-target="software"
+                            data-bs-toggle="dropdown">
+                            Software Training
+                        </a>
+                        <ul class="dropdown-menu" id="software">
+                            <li><a class="dropdown-item " href="#">Software Traning Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Internship Programme</a></li>
+                            <li><a class="dropdown-item" href="#">Job Placement Assistance</a></li>
+                            <li><a class="dropdown-item" href="#">Placement Ragistration</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown me-2">
+                        <a class="nav-link text-primary dropdown-toggle" href="#" data-bs-target="services"
+                            data-bs-toggle="dropdown">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" id="services">
+                            <li><a class="dropdown-item " href="#">Online Traning</a></li>
+                            <li><a class="dropdown-item" href="#">Classroom Traning</a></li>
+                            <li><a class="dropdown-item" href="#">Weekend Traning</a></li>
+                            <li><a class="dropdown-item" href="#">Corporate Traning</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown me-2">
+                        <a class="nav-link text-primary dropdown-toggle" href="#" data-bs-target="new-batches"
+                            data-bs-toggle="dropdown">
+                            New Batches
+                        </a>
+                        <ul class="dropdown-menu" id="new-batches">
+                            <li><a class="dropdown-item " href="#">Hyderabad</a></li>
+                            <li><a class="dropdown-item" href="#">Chennai</a></li>
+                            <li><a class="dropdown-item" href="#">Onlin Training</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown me-2">
+                        <a class="nav-link text-primary dropdown-toggle" href="#" data-bs-target="library"
+                            data-bs-toggle="dropdown">
+                            Library
+                        </a>
+                        <ul class="dropdown-menu" id="library">
+                            <li><a class="dropdown-item " href="#">Careers</a></li>
+                            <li><a class="dropdown-item" href="#">Blog</a></li>
+                            <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                            <li><a class="dropdown-item" href="#">Interview Questions</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown me-2">
+                        <a class="nav-link text-primary dropdown-toggle" href="#" data-bs-target="courses"
+                            data-bs-toggle="dropdown">
+                            NASSCOM Approved Courses
+                        </a>
+                        <ul class="dropdown-menu" id="courses">
+                            <li><a class="dropdown-item " href="#">Full Stack Data Science Program</a></li>
+                            <li><a class="dropdown-item" href="#">Full Stack JAVA Developer Program</a></li>
+                            <li><a class="dropdown-item" href="#">Python Developer Program</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item me-2">
+                        <a href="./login.html" target="_blank"><button class="btn btn-outline-primary " type="submit">
+                                <i class="fa-solid fa-right-to-bracket" style="color: red;"></i>
+                                Login</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--carousel-->
+    <div class="container-fluid">
+        <div class="carousel slide" data-bs-ride="carousel" id="banner"
+            style="border-top: 10px solid blue; border-bottom: 10px solid blue;">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="../assets/Python-Online-training.jpg" class="w-100 ">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="../assets/Rpa-blueprism-online-training-nareshit.jpg" class="w-100">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="../assets/Data-Science-Online-Training-nareshit.jpg" class="w-100">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="../assets/DevOps-Online-Training-NareshIT.jpg" class="w-100">
+                </div>
+            </div>
+            <div>
+                <button class="carousel-control-prev " data-bs-target="#banner" data-bs-slide="next">
+                    <span class="carousel-control-prev-icon bg-secondary"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#banner" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-secondary"></span>
+                </button>
+            </div>
+        </div>
+
+        <!--our Servises-->
+        <div class="container-fluid" style="border-bottom: 2px solid gold;">
+            <h2 class="text-center m-3 ">Our <b>Services</b></h2>
+            <div class="services d-flex flex flex-wrap align-items-center ">
+                <div class="type">
+                    <div class="d-flex align-items-center mb-1">
+                        <img class="" src="./images/classroom.png" alt="img" width="50px">
+                        <h3 style="font-size: 20px; font-weight: 400;">CLASSROOM TRAINING</h3>
+                    </div>
+                    <p class="ps-2 pe-2">Quality Training by Experts of various Technologies to suit aspirants from a
+                        different academic profile.</p>
+                </div>
+                <div class="type">
+                    <div class="d-flex align-items-center mb-1">
+                        <img class="" src="./images/Online-training.png" alt="img" width="50px">
+                        <h3 style="font-size: 20px; font-weight: 400;">ONLINE TRAINING</h3>
+                    </div>
+                    <p class="ps-2 pe-2">Experienced Faculty team provides the trainig suitable for all aspiring IT
+                        professionals.</p>
+                </div>
+                <div class=" type">
+                    <div class="d-flex align-items-center  mb-1">
+                        <img class="" src="./images/software-industry-1.png" alt="img" width="50px">
+                        <h3 style="font-size: 20px; font-weight: 400;">CORPORATE TRAINING</h3>
+                    </div>
+                    <p class="ps-2 pe-2">Customized Courses to meet Client Requirements across the Software Industry.
+                    </p>
+                </div>
+                <div class="type">
+                    <div class="d-flex align-items-center  mb-1">
+                        <img class="" src="./images/weekends.png" alt="img" width="50px">
+                        <h3 style="font-size: 20px; font-weight: 400;">WEEKEND TRAINING</h3>
+                    </div>
+                    <p class="ps-2 pe-2">Exclusively Designed for Working Professionals from IT & Non-IT Backgrounds.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--Trending courses-->
+        <div class="container-fluid" style="border-bottom: 2px solid gold;">
+            <h2 class="text-center m-4">Trending <b>Courses</b></h2>
+            <div class="d-flex flex-wrap justify-content-around mb-4">
+                <div class="course text-center mb-4"
+                    style="width:250px; height: 300px; background-color: whitesmoke; box-shadow: 2px 2px 5px gray;">
+                    <img class="mb-4 " src="./images/go-programming.jpg" alt="img" width="100%">
+                    <div>
+                        <a class="text-dark" style="text-decoration: none;" href="#">Go Programing Online Training</a>
+                        <div class="m-2 text-warning">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <a class="text-dark" style="text-decoration: none;" href="#">View Course</a>
+                    </div>
+                </div>
+                <div class="course text-center mb-4 "
+                    style="width:250px; height: 300px; background-color: whitesmoke; box-shadow: 2px 2px 5px gray;">
+                    <img class="mb-4" src="./images/digital-marketing.jpg" alt="img" width="100%">
+                    <div>
+                        <a class="text-dark" style="text-decoration: none;" href="#">Digital Marketing Online
+                            Training</a>
+                        <div class="m-2 text-warning">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <a class="text-dark" style="text-decoration: none;" href="#">View Course</a>
+                    </div>
+                </div>
+                <div class="course text-center mb-4 "
+                    style="width:250px; height: 300px; background-color: whitesmoke; box-shadow: 2px 2px 5px gray;">
+                    <img class="mb-4" src="./images/Asp.net-online.jpg" alt="img" width="100%">
+                    <div>
+                        <a class="text-dark" style="text-decoration: none;" href="#">ASP.NET Online Training</a>
+                        <div class="m-2 text-warning">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <a class="text-dark" style="text-decoration: none;" href="#">View Course</a>
+                    </div>
+                </div>
+                <div class="course text-center mb-4 "
+                    style="width:250px; height: 300px; background-color: whitesmoke; box-shadow: 2px 2px 5px gray;">
+                    <img class="mb-4" src="./images/android-online.jpg" alt="img" width="100%">
+                    <div>
+                        <a class="text-dark" style="text-decoration: none;" href="#">Anroid Online Training</a>
+                        <div class="m-2 text-warning">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <a class="text-dark" style="text-decoration: none;" href="#">View Course</a>
+                    </div>
+                </div>
+                <div class="course text-center mb-4 "
+                    style="width:250px; height: 300px; background-color: whitesmoke; box-shadow: 2px 2px 5px gray;">
+                    <img class="mb-4" src="./images/Automation.jpg" alt="img" width="100%">
+                    <div>
+                        <a class="text-dark" style="text-decoration: none;" href="#">Automation anywhere Online
+                            Training</a>
+                        <div class="m-2 text-warning">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <a class="text-dark" style="text-decoration: none;" href="#">View Course</a>
+                    </div>
+                </div>
+                <div class="course text-center mb-4 "
+                    style="width:250px; height: 300px; background-color: whitesmoke; box-shadow: 2px 2px 5px gray;">
+                    <img class="mb-4" src="./images/Angular10.jpg" alt="img" width="100%">
+                    <div>
+                        <a class="text-dark" style="text-decoration: none;" href="#">Angular Online Training</a>
+                        <div class="m-2 text-warning">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <a class="text-dark" style="text-decoration: none;" href="#">View Course</a>
+                    </div>
+                </div>
+                <div class="course text-center mb-4"
+                    style="width:250px; height: 300px; background-color: whitesmoke; box-shadow: 2px 2px 5px gray;">
+                    <img class="mb-4" src="./images/Linux-online.jpg" alt="img" width="100%">
+                    <div>
+                        <a class="text-dark" style="text-decoration: none;" href="#">Linux Unix Online Training</a>
+                        <div class="m-2 text-warning">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <a class="text-dark" style="text-decoration: none;" href="#">View Course</a>
+                    </div>
+                </div>
+                <div class="course text-center mb-4"
+                    style="width:250px; height: 300px; background-color: whitesmoke; box-shadow: 2px 2px 5px gray;">
+                    <img class="mb-4" src="./images/Asp.jpg" alt="img" width="100%">
+                    <div>
+                        <a class="text-dark" style="text-decoration: none;" href="#">ASP.Net MVC Online Training</a>
+                        <div class="m-2 text-warning">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <a class="text-dark" style="text-decoration: none;" href="#">View Course</a>
+                    </div>
+                </div>
+                <div class="course text-center mb-4"
+                    style="width:250px; height: 300px; background-color: whitesmoke; box-shadow: 2px 2px 5px gray;">
+                    <img class="mb-4" src="./images/php.jpg" alt="img" width="100%">
+                    <div>
+                        <a class="text-dark" style="text-decoration: none;" href="#">PHP Online Training</a>
+                        <div class="m-2 text-warning">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <a class="text-dark" style="text-decoration: none;" href="#">View Course</a>
+                    </div>
+                </div>
+                <div class="course text-center mb-4"
+                    style="width:250px; height: 300px; background-color: whitesmoke; box-shadow: 2px 2px 5px gray;">
+                    <img class="mb-4" src="./images/blueprism.jpg" alt="img" width="100%">
+                    <div>
+                        <a class="text-dark" style="text-decoration: none;" href="#">Bluprism Online Training</a>
+                        <div class="m-2 text-warning">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <a class="text-dark" style="text-decoration: none;" href="#">View Course</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--popular technologies-->
+        <div class=" container-fluid popular-section d-flex" style="border-bottom: 2px solid gold;">
+            <div class="card-section" style="width:80%;">
+                <h2 class="text-center m-4">Popular <b>Technologies</b></h2>
+                <div class="popular-btn text-center mb-4">
+                    <button class="btn btn-primary rounded rounded-pill "><span
+                            class="fa fa-pie-chart p-2"></span>BigData & Hadoop</button>
+                    <button class="btn btn-primary rounded rounded-pill "><span
+                            class="fa fa-refresh p-2"></span>DevOps</button>
+                    <button class="btn btn-primary rounded rounded-pill "><span
+                            class="fa fa-eye p-2"></span>Automation</button>
+                    <button class="btn btn-primary rounded rounded-pill "><span class="fa fa-cloud p-2"></span>Cluod
+                        Technologies</button>
+                    <button class="btn btn-primary rounded rounded-pill "><span class="fa fa-code p-2"></span>Web
+                        Technologies</button>
+                </div>
+
+                <!--popular courses-->
+                <div class="d-flex flex-wrap justify-content-around mb-4">
+                    <div class="course text-center mb-4"
+                        style="width:150px; height: 200px; background-color: whitesmoke; box-shadow: 2px 2px 5px gray;">
+                        <img class="mb-2 " src="./images/Docker.jpg" alt="img" width="100%">
+                        <div>
+                            <a class="text-dark f-size" style="text-decoration: none;" href="#">Docker Online
+                                Training</a>
+                            <div class="m-2 text-warning">
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                            </div>
+                            <a class="text-dark f-size" style="text-decoration: none;" href="#">View Course</a>
+                        </div>
+                    </div>
+                    <div class="course text-center mb-4 "
+                        style="width:150px; height: 200px; background-color: whitesmoke; box-shadow: 2px 2px 5px gray;">
+                        <img class="mb-2" src="./images/chef.jpg" alt="img" width="100%">
+                        <div>
+                            <a class="text-dark f-size" style="text-decoration: none;" href="#">Chef Online Training</a>
+                            <div class="m-2 text-warning">
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                            </div>
+                            <a class="text-dark f-size" style="text-decoration: none;" href="#">View Course</a>
+                        </div>
+                    </div>
+                    <div class="course text-center mb-4 "
+                        style="width:150px; height: 200px; background-color: whitesmoke; box-shadow: 2px 2px 5px gray;">
+                        <img class="mb-2" src="./images/Puppet.jpg" alt="img" width="100%">
+                        <div>
+                            <a class="text-dark f-size" style="text-decoration: none;" href="#">Pupet Online
+                                Training</a>
+                            <div class="m-2 text-warning">
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                            </div>
+                            <a class="text-dark f-size" style="text-decoration: none;" href="#">View Course</a>
+                        </div>
+                    </div>
+                    <div class="course text-center mb-4 "
+                        style="width:150px; height: 200px; background-color: whitesmoke; box-shadow: 2px 2px 5px gray;">
+                        <img class="mb-2" src="./images/Jenkins.jpg" alt="img" width="100%">
+                        <div>
+                            <a class="text-dark f-size" style="text-decoration: none;" href="#">Jenkins Online
+                                Training</a>
+                            <div class="m-2 text-warning">
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                            </div>
+                            <a class="text-dark f-size" style="text-decoration: none;" href="#">View Course</a>
+                        </div>
+                    </div>
+                    <div class="course text-center mb-4 "
+                        style="width:150px; height: 200px; background-color: whitesmoke; box-shadow: 2px 2px 5px gray;">
+                        <img class="mb-2" src="./images/Devops.jpg" alt="img" width="100%">
+                        <div>
+                            <a class="text-dark f-size" style="text-decoration: none;" href="#">Devops Online
+                                Training</a>
+                            <div class="m-2 text-warning">
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                                <span class="bi bi-star-fill"></span>
+                            </div>
+                            <a class="text-dark f-size" style="text-decoration: none;" href="#">View Course</a>
+                        </div>
+                    </div>
+                </div>
+                <!--animated text-->
+                <div class="animated-text">
+                    <h1 style="display:flex; flex-direction:column; justify-content: center; ">
+                        <div class="text-1">Enroll for</div>
+                        <div class="message">
+                            <div class="word1">Training <i class="bi bi-arrow-right-circle-fill"></i></div>
+                            <div class="word2">Success <i class="bi bi-arrow-right-circle-fill"></i></div>
+                            <div class="word3">Bright Career...</div>
+                        </div>
+                    </h1>
+                </div>
+            </div>
+
+            <!--Enroll Form-->
+            <div class="enroll-section">
+                <form action="#" class="p-4">
+                    <h4>Enrollement form</h4>
+                    <div>
+                        <label for="first-name">First Name*</label>
+                        <input class="form-control mb-1" type="text" name="first-name" id="first-name" required>
+                    </div>
+                    <div>
+                        <label for="last-name">LastName*</label>
+
+                        <input class="form-control mb-1" type="text" name="last-name" id="last-name" required>
+
+                    </div>
+                    <div>
+                        <label for="email">Email*</label>
+
+                        <input class="form-control mb-1" type="email" name="email" id="email" required>
+
+                    </div>
+                    <div>
+                        <label for="phone">Phone*</label>
+
+                        <input class="form-control mb-1" type="text" name="phone" id="phone" required>
+
+                    </div>
+                    <div>
+                        <label for="mode">Mode of Training*</label>
+
+                        <select id="mode" name="mode" class="form-select mb-1">
+                            <option value="Online Traning">Online Traning</option>
+                            <option value="Classroom Traning">Classroom Traning</option>
+                            <option value="Weekend Training">Weekend Training</option>
+                            <option value="Project Trainnig">Project Trainnig</option>
+                            <option value="Internship">Internship</option>
+                        </select>
+
+                    </div>
+                    <div>
+                        <label for="state">State*</label>
+                        <input class="form-control mb-1" type="text" name="state" id="state" required
+                            style="display: inline-block;">
+                    </div>
+                    <div>
+                        <label for="course">Course*</label>
+                        <select id="course" name="course" class="form-select mb-1">
+                            <option value="volvo">Select Courses</option>
+                            <option value="saab">UI Full stack Web Development</option>
+                            <option value="fiat">Full stack JAVA Developer</option>
+                            <option value="audi">Full stack .NET Developer</option>
+                            <option value="audi">Python</option>
+                            <option value="audi">AWS</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100 mt-2">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="container-fluid text-center"
+            style="background:url(./images/girlback.png) no-repeat;background-size: cover;">
+            <h4 class="text-center text-warning pt-2 ">Let's Update Your Skills from anywhere with Our Online Training
+                Experts...</h4>
+            <div class="services d-flex flex-wrap align-items-center text-white ">
+                <div class="type">
+                    <i class="bi bi-person-fill  " style="font-size: 50px; color:white;"></i>
+                    <h3 style="font-size: 20px; font-weight: 400;">1. Become a Member</h3>
+                    <p>Watch classes on your own schedule, anytime, anywhere.</p>
+                </div>
+                <div class="type">
+                    <i class="fa fa-question-circle m-2" style="font-size: 50px; color:white;"></i>
+                    <h3 style="font-size: 20px; font-weight: 400;">2. Learn By Doing</h3>
+                    <p class="ps-2 pe-2">Lessons are bite-sized with most classes under an hour.</p>
+                </div>
+                <div class=" type">
+                    <i class="fa fa-users m-2" style="font-size: 50px; color:white;"></i>
+                    <h3 style="font-size: 20px; font-weight: 400;">3. Engage with a Community</h3>
+                    <p class="ps-2 pe-2">Create projects and build a portfolio of work.</p>
+                </div>
+                <div class="type">
+                    <i class="bi bi-hand-thumbs-up m-2" style="font-size: 50px; color:white;"></i>
+                    <h3 style="font-size: 20px; font-weight: 400;">4. Take a Course</h3>
+                    <p class="ps-2 pe-2">Enroll in online classes taught by creators from around the world.</p>
+                </div>
+            </div>
+            <div class="text-center pb-4"><button class="btn btn-warning"><i
+                        class="bi bi-arrow-up-left-circle-fill"></i>
+                    Subscribe Now!</button></div>
+        </div>
+
+        <div class="container-fluid">
+            <h2 class=" text-center m-4">Traning <b>Features</b></h2>
+            <div class="services d-flex flex flex-wrap justify-content-center align-items-center w-100 ">
+                <div class="type text-center feature ">
+                    <i class="bi bi-person-fill" style="font-size: 50px; color: goldenrod;"></i>
+                    <h3 style="font-size: 20px; font-weight: 400;">Instructor-Led Training Sessions</h3>
+                    <p class="">We believe to provide our students the Best interactive experience as part of their
+                        learning</p>
+                </div>
+                <div class="type text-center feature ">
+                    <img class="mb-4" src="./images/Expert-Trainer.png" alt="img" width="50px">
+                    <h3 style="font-size: 20px; font-weight: 400;">Expert Trainers</h3>
+                    <p class="">We Constantly evaluate our trainers and only the “Best” Provides the Training</p>
+                </div>
+                <div class=" type text-center feature ">
+                    <img class="mb-4" src="./images/gnome-schedule-icon.png" alt="img" width="50px">
+                    <h3 style="font-size: 20px; font-weight: 400;">Flexible Schedule</h3>
+                    <p class="">Do not hesitate to ask… because we will work according to your calendar</p>
+                </div>
+                <div class="type text-center feature ">
+                    <img class="mb-4" src="./images/software-industry-1.png" alt="img" width="50px">
+                    <h3 style="font-size: 20px; font-weight: 400;">Industry Specific Scenarios</h3>
+                    <p class="">Students are provided with all the Real-Time and Relevant Scenarios</p>
+                </div>
+                <div class="type text-center  feature ">
+                    <img class="mb-4" src="./images/e-learning.png" alt="img" width="50px">
+                    <h3 style="font-size: 20px; font-weight: 400;">e-Learning Sessions</h3>
+                    <p class="">Online training sessions are held Live and we provide students with the Training Videos
+                    </p>
+                </div>
+                <div class="type text-center  feature ">
+                    <img class="mb-4" src="./images/help.png" alt="img" width="50px">
+                    <h3 style="font-size: 20px; font-weight: 400;">24/7 Support</h3>
+                    <p class="">No Problem@ all…!!! Your Question will be answered by Us at any Hour of the time</p>
+                </div>
+            </div>
+
+            <div style="background:url(./images/logback2.jpg) no-repeat;background-size: cover;">
+                <div class="d-flex flex-wrap align-items-center justify-content-center text-white">
+                    <div class="text-center m-2">
+                        <img src="./images/youtube-channel-nareshit.png" alt="youtube" width="100px" height="100px">
+                    </div>
+                    <div class="m-4 text-center">
+                        <h4>8,00,000+ People Already Subscribed Our " YOUTUBE CHANNEL "</h4>
+                        <p>Subscribe now and receive updates on emerging technologies and tools with
+                            on-demand video tutorials, new courses, interesting workshops, most popular topics and much
+                            more!</p>
+                        <div><button class="btn btn-danger"><span class="bi bi-youtube"></span>
+                                Subscribe Now!</button></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class=" text-center">
+            <h2 class=" m-4">our <b>Corporate Clients</b></h2>
+            <p>The corporate Training program is tailor-made to suit the working professionals in the industry who are
+                expected to have a shift in their domain or technology as per their career demand. The corporate
+                training courses are customized to meet the project requirements as expected from the corporate trainees
+            </p>
+        </div>
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="./images/rop.jpg"></div>
+            <div class="item"><img src="./images/qualcomm.jpg"></div>
+            <div class="item"> <img src="./images/quad-one.jpg"></div>
+            <div class="item"><img src="./images/net.jpg"></div>
+            <div class="item"> <img src="./images/ge-logo.jpg"></div>
+            <div class="item"><img src="./images/four-soft.jpg"></div>
+            <div class="item"> <img src="./images/dhanush.jpg"></div>
+            <div class="item"><img src="./images/davis.jpg"></div>
+            <div class="item"> <img src="./images/c-tara.png"></div>
+            <div class="item"><img src="./images/samvera.jpg"></div>
+        </div>
+
+
+        <div class=" text-center mt-4" style="border-top:2px solid gold;">
+            <h2 class=" m-4">our <b>Trainees are Working with</b></h2>
+            <p>Our Trainees are working in more than 800+ Companies and Monthly 60+ Companies hire from us…
+            </p>
+        </div>
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="./images/TECHMAHINDRA.jpg"></div>
+            <div class="item"><img src="./images/ACCENTURE.jpg"></div>
+            <div class="item"> <img src="./images/CONGIZANT.jpg"></div>
+            <div class="item"><img src="./images/CAPGEMINI.jpg"></div>
+            <div class="item"> <img src="./images/CSC.jpg"></div>
+            <div class="item"><img src="./images/TRINITI.jpg"></div>
+            <div class="item"> <img src="./images/VALUELABS.jpg"></div>
+            <div class="item"><img src="./images/VIRTUSA.jpg"></div>
+            <div class="item"> <img src="./images/AGILYTI.jpg"></div>
+            <div class="item"><img src="./images/DIYOTTA.jpg"></div>
+        </div>
+
+
+    </div>
+
+    <!--footer-->
+    <div class="services d-flex flex flex-wrap justify-content-evenly bg-primary text-white mt-4">
+        <div class="type p-4 ">
+            <h5 class="ms-4">Reach Us@</h5>
+            <ul style="list-style: none; margin-left:0px;">
+                <li class="mb-4">
+                    <span class="fa fa-map-marker"></span><span> Adress:</span>
+                    <div>2nd Floor, Durga Bhavani Plaza, Satyam Theatre Road, Ameerpet, Hyderabad, Telangana
+                        500016</div>
+                </li>
+                <li class="mb-4">
+                    <span class="fa fa-phone"></span><span> Phone:</span>
+                    <div>(040) 2374 6666</div>
+                </li>
+                <li class="mb-4">
+                    <span class="fa fa-envelope"></span><span> Email:</span>
+                    <div><a class="anchor" href="mailto:onlinetraining@nareshit.com">onlinetraining@nareshit.com</a>
+                    </div>
+                </li>
+                <li class="mb-4">
+                    <span class="fa fa-clock"></span><span> Working Days/Hours :</span>
+                    <div>Mon - Sun / 6:00 AM - 9:30 PM</div>
+                </li>
+            </ul>
+        </div>
+        <div class="type p-4">
+            <h5>Useful Links</h5>
+            <div class="mb-4">
+                <a class="anchor" href="#">Blog</a><br>
+                <a class="anchor" href="#">Contact us</a><br>
+                <a class="anchor" href="#">Placement Registration</a><br>
+            </div>
+            <h5>For Fresher IT Jobs</h5>
+            <div class="mb-4">
+                <a class="anchor" href="#">SeshaJobs</a><br>
+                <a class="anchor" href="#">NareshJobs</a><br>
+                <a class="anchor" href="#">Placement Registration</a><br>
+            </div>
+            <h5>also find</h5>
+            <div class="mb-4">
+                <h6>Our Branch locations:</h6>
+                <a class="anchor" href="#">Hyderabad </a>|
+                <a class="anchor" href="#">chennai</a>|
+                <a class="anchor" href="#">USA</a>|
+                <a class="anchor" href="#">Online traning</a>
+            </div>
+        </div>
+        <div class=" type p-4">
+            <div class="mb-4">
+                <h5>NareshIT Reviews</h5>
+                <div>Google+ 4.4 on 2565 Reviews</div>
+                <div>Facebook 4.6 on 654 Reviews</div>
+                <div>EduGorilla 4.9 on 103 Reviews</div>
+                <div>Sulekha 4.0 283 Reviews</div>
+                <div>Justdial 4.1 on 5102 Reviews</div>
+                <div>Urbanpro 5.0 on 161 Reviews</div>
+                <div>Local Enquiry 5.0 on Reviews</div>
+            </div>
+            <div class="mb-4">
+                <h5>Important info:</h5>
+                <div>
+                    <a class="anchor" href="#">Privacy Statement</a><br>
+                    <a class="anchor" href="#">Refund Policy</a><br>
+                    <a class="anchor" href="#">Terms Of Service</a><br>
+                </div>
+            </div>
+        </div>
+        <div class="type p-4">
+            <h5 class="ms-4">For Online Training</h5>
+            <ul style="list-style: none; margin-left:0px;">
+                <li class="mb-4">
+                    <img src="./images/india-emoji.png" alt="flag" width="50px" height="30px"><span>
+                        India</span>
+                    <div><a class="anchor" href="#"> +91 8179191999</a></div>
+                </li>
+                <li class="mb-4">
+                    <i class="bi bi-whatsapp"></i><span> whatsapp</span>
+                    <div><a class="anchor" href="#"> +91 8179191999</a></div>
+                </li>
+                <li class="mb-4">
+                    <img src="./images/USAflag.png" alt="flag" width="50px" height="30px"></span><span>
+                        USA</span>
+                    <div><a class="anchor" href="#"> +1 4042329879</a></div>
+                </li>
+                <li class="mb-4">
+                    <span class="fa fa-envelope"></span><span> onlinetraining@nareshit.com</span>
+                </li>
+            </ul>
+            <div class="ms-4 mb-4">
+                <h5>Follow Us</h5>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-youtube"></i>
+                <i class="bi bi-linkedin"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-vimeo"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="d-flex flex-wrap align-items-center bg-primary text-white">
+        <div class="m-4 pb-3 ">
+            <img src="./images/nareshit-logo.png" alt="logo" width="80px" height="20px">
+            <span id="copyright"> © Copyright 2020. All Rights Reserved.</span>
+        </div>
+        <div>
+            <h6 id="last-hading">Online Training</h6>
+            <p id="locations" class="pb-4">Hyderabad, Bangalore, Chennai, Pune, Noida, Australia, Canada, UK, USA,
+                Boston,
+                California, Chicago, Dallas, New York, Orlando, Washington.</p>
+        </div>
+
+
+        <!-- Attribution -->
+        <div class="attribution p-2">
+            Assingment Given by : <a class="text-warning" href="https://www.nareshit.com/" target="_blank">Naresh IT
+                Hyderabad</a>
+            Coded by : <a class="text-warning" href="https://github.com/Syed-Jameel" target="_blank">Syed jameel
+                Akhter</a>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./bootsrap/js/bootstrap.bundle.js"></script>
+    <script src="owl.carousel.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 1000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                300: {
+                    items: 3
+                },
+                600: {
+                    items: 5
+                },
+                1000: {
+                    items: 7
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

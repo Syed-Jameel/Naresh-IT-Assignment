@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="owl.carousel.css">
+    <title>owl Carousel</title>
+</head>
+
+<body>
+    <div class="owl-carousel owl-theme">
+        <div class="item"><img src="./images/rop.jpg"></div>
+        <div class="item"><img src="./images/qualcomm.jpg"></div>
+        <div class="item"> <img src="./images/quad-one.jpg"></div>
+        <div class="item"><img src="./images/net.jpg"></div>
+        <div class="item"> <img src="./images/ge-logo.jpg"></div>
+        <div class="item"><img src="./images/four-soft.jpg"></div>
+        <div class="item"> <img src="./images/dhanush.jpg"></div>
+        <div class="item"><img src="./images/davis.jpg"></div>
+        <div class="item"> <img src="./images/c-tara.png"></div>
+        <div class="item"><img src="./images/samvera.jpg"></div>
+    </div>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="owl.carousel.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 1000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                300: {
+                    items: 3
+                },
+                600: {
+                    items: 5
+                },
+                1000: {
+                    items: 7
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
