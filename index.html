@@ -5,245 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="./images/naresh IT logo.png">
     <link rel="stylesheet" href="./bootsrap/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
         integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo" crossorigin="anonymous">
-    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="owl.carousel.css">
     <title>Best Online Trainig Institute - Best Software Training Institute </title>
-    <style type="text/css">
-        @media screen and (max-width:500px) {
 
-            /* for services small screen */
-            .services .type {
-                margin-bottom: 10px;
-                text-align: center;
-                font-size: 15px;
-                padding: 10px;
-            }
-
-            /* for popular buttons */
-            .popular-btn button {
-                display: block;
-                margin-bottom: 20px;
-            }
-
-            .popular-btn button {
-                width: 100%;
-            }
-
-            /* for Popular Sections */
-            .popular-section {
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .card-section {
-                width: 100%;
-            }
-
-            .enroll-section {
-                width: 100%;
-            }
-
-            /* footer */
-            #locations {
-                font-size: 0.7rem;
-                text-align: center;
-            }
-
-            #copyright {
-                font-size: 0.7rem;
-            }
-
-            #last-hading {
-                text-align: center;
-            }
-
-            /* Attribution */
-            .attribution {
-                font-size: 0.6rem;
-            }
-
-            .attribution a {
-                font-size: 0.7rem;
-            }
-
-
-
-        }
-
-        @media screen and (min-width:500px) {
-            .services .type {
-                width: 25%;
-            }
-        }
-
-        /* for card zooming effect */
-        .course {
-            overflow: hidden;
-        }
-
-        .course img {
-            transition: 2s;
-        }
-
-        .course img:hover {
-            transform: scale(1.2);
-            transition: 2s;
-        }
-
-
-        /* for font size of small cards */
-        .f-size {
-            font-size: 14px;
-        }
-
-
-        /* for animated text  */
-        @media screen and (max-width:950px) {
-            .animated-text h1 {
-                margin-left: -18rem;
-                margin-right: -18rem;
-            }
-        }
-
-        .animated-text h1 {
-            color: black;
-            font-size: 3rem;
-            line-height: 1.5;
-            text-transform: capitalize;
-            white-space: nowrap;
-            overflow: hidden;
-            position: relative;
-        }
-
-        .message {
-            background-color: blue;
-            color: white;
-            display: block;
-            font-weight: 600;
-            overflow: hidden;
-            position: absolute;
-            padding: 0.2rem;
-            top: 0;
-            left: 220px;
-            animation: openclose 5s ease-in-out infinite;
-        }
-
-        .word1,
-        .word2,
-        .word3 {
-            font-family: tahoma;
-        }
-
-        @keyframes openclose {
-            0% {
-                top: 0;
-                width: 0;
-            }
-
-            5% {
-                width: 0;
-            }
-
-            15% {
-                width: 280px;
-            }
-
-            30% {
-                top: 0rem;
-                width: 280px;
-            }
-
-            33% {
-                top: 0rem;
-                width: 0;
-            }
-
-            35% {
-                top: 0.2rem;
-                width: 0;
-            }
-
-            38% {
-                top: -4.5rem;
-
-            }
-
-            48% {
-                top: -4.5rem;
-                width: 260px;
-            }
-
-            62% {
-                top: -4.5rem;
-                width: 260px;
-            }
-
-            66% {
-                top: -4.5rem;
-                width: 0;
-                text-indent: 0;
-            }
-
-            71% {
-                top: -9rem;
-                width: 0;
-                text-indent: 5px;
-            }
-
-            86% {
-                top: -9rem;
-                width: 380px;
-            }
-
-            95% {
-                top: -9rem;
-                width: 380px;
-            }
-
-            98% {
-                top: -9rem;
-                width: 0;
-                text-indent: 5px;
-            }
-
-            100% {
-                top: 0;
-                width: 0;
-                text-indent: 0;
-            }
-        }
-
-        /* for training features */
-        .feature {
-            margin: 20px;
-        }
-
-        /* for links */
-        .anchor {
-            color: white;
-            text-decoration: none;
-        }
-
-        .anchor:hover {
-            text-decoration: underline;
-            color: white;
-        }
-    </style>
 </head>
 
 <body class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container-fluid">
-            <div class="navbar-brand" href="#">
-                <img src="./images/nareshit-logo.png" alt="naresh-it logo" class="d-inline-block">
+            <div class="navbar-brand d-flex justify-content-evenly">
+                <img id="logo" src="./images/nareshit-logo.png" alt="naresh-it logo" class="d-inline-block">
+
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             </div>
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
             <div class="collapse navbar-collapse justify-content-end" id="menu">
                 <ul class="navbar-nav ">
                     <li class="nav-item dropdown me-2">
@@ -329,7 +110,7 @@
 
                     <li class="nav-item me-2">
                         <a href="./login.html" target="_blank"><button class="btn btn-outline-primary " type="submit">
-                                <i class="bi bi-box-arrow-in-right" style="color: red;"></i>
+                                <i class="bi bi-arrow-right-circle-fill" style="color: red;"></i>
                                 Login</button>
                         </a>
                     </li>
